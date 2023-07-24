@@ -1,8 +1,8 @@
 package prePlacementClass;
 import java.util.*;
 
-//reset operation means convert 1 to 0
-//set operation means convert 0 to 1
+//reset operation means convert 1/0 to 0
+//set operation means convert 0/1 to 1
 //Ex- n=10 , at pos=3 do set operation
 //n=10 = 1010 
 //here convert 3rd bit to 1
