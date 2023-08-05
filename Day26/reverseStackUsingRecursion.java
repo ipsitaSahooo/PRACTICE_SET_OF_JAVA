@@ -32,3 +32,5 @@ public class Solution
 	}
 
 }
+
+//O(n^2)=TC
