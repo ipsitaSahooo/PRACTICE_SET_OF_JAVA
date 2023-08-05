@@ -64,4 +64,4 @@ public:
 
         return a + b;
     }
-};
+}
