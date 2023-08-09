@@ -3,8 +3,8 @@ class Solution
     public int largestRectangleArea(int[] heights) 
     {
         int n = heights.length;
-        int smallleft[] = new int[n];
-        int smallright[] = new int[n];
+        int smallleft[] = new int[n]; // previous smaller element
+        int smallright[] = new int[n]; //next smaller element
 
         Stack<Integer> s = new Stack<>();
        
