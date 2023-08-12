@@ -7,10 +7,12 @@ class Solution {
         int x=0;
         for(int i =0;i<n;i++)
         {
+            //remove numbers out of range of K
             if(!dq.isEmpty() && dq.peek()==i-k)
             {
-                dq.poll();
+                dq.poll();//remove
             }
+            //remove smaller numbers in range k as they are useless
             while(!dq.isEmpty() && nums[dq.peekLast()]<nums[i])
             {
                 dq.pollLast();
