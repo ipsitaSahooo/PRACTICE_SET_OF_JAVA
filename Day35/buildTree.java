@@ -11,3 +11,4 @@ root.left=buildTree(root.left);
 root.right=buildTree(root.right);
 return root
   }
+//SEE IN COPY TOO
