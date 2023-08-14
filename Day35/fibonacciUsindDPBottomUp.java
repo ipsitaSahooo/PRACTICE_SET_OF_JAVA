@@ -19,3 +19,28 @@ class Solution
 		return dp[n];
     }
 }
+ // OPTIMISING SPACE
+//SC=O(1)
+class Solution 
+{
+    static int nthFibonacci(int n)
+    {
+       // USING DP BOTTOM UP APPROACH
+	    
+       int b=0;
+       int a=1;
+       int c;
+	    if(n==0)
+            return b;
+        for(int i=2;i<n+1;i++)
+	{
+		c=a+b;
+
+		b=a;
+		a=c;
+		
+	}
+		
+		return a;
+    }
+}
