@@ -1,3 +1,4 @@
+//TOP-DOWN
 static int knapSack(int wt[], int val[],int W, int n)
     {
       int dp[][]=new int[n+1][W+1];
