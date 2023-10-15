@@ -1,3 +1,4 @@
+//formula is (r-1) combination (c-1)
 int func(n,r)
   {
   int ans=1;
